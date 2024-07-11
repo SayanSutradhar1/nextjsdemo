@@ -49,7 +49,7 @@ export default function Home() {
         <br />
         <input type="text" name="message" className="text-black my-2" value={data.message} onChange={(e)=>setData((prev)=>({...prev,message:e.target.value}))}/>
         <br />
-        <input type="submit" value={"Submit"} className="p-2 bg-green-500" />
+        <input type="submit" value={"Submit"} className="p-3 bg-green-500" />
       </form>
     </main>
   );
